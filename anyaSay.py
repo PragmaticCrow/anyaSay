@@ -1,7 +1,7 @@
 def anya_say():
     import sys
     if len(sys.argv) < 2:
-        print("No se ha proporcionado un mensaje, modo de uso: python anya -aqui va un mensaje-")
+        print("No se ha proporcionado un mensaje, modo de uso: python anyaSay.py cualquier texto")
         return
 
     mensaje = sys.argv[1]
