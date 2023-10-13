@@ -7,7 +7,7 @@ print(" " + "_" * 54)
 print("/" + " " * 54 + "\\")
 if caracteres <= 51:
     print("| " + texto + (" " * (53 - caracteres)) + "|")
-elif caracteres >= 52:
+elif caracteres > 51:
     for i in range(1, longitud):
         inicial = 1
         multiplicar = i - 1
